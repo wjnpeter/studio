@@ -1,0 +1,73 @@
+<%- include('partials/head', { title: 'PC Studio - iOS & Web design and Develop' }); %>
+
+<%- include('partials/navbar'); %>
+
+<img class="contact-light1 d-none d-sm-block" src="images/light3.svg" alt="light">
+<img class="contact-light2" src="images/light2.svg" alt="light">
+<img class="contact-wave" src="images/path4.svg" alt="wave">
+
+<section class="container-fluid sec-contact">
+  <div class="row">
+    <div class="col-lg-12 content">
+      <h1>Let's<br>Work<br>Together</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="img-fluid contact-img" src="images/inquiry.svg" alt="inquiry">
+    </div>
+    <div class="col-lg-8 px-0 px-sm-2 px-md-3">
+      <% if (msgSent === null) { %>
+
+      <form action="contact" method="post">
+        <div class="row">
+          <div class="col-md-6 form-group">
+            <input type="text" name="clientName" class="form-control" placeholder="Who shall I call?" required>
+          </div>
+          <div class="col-md-6">
+            <select name="clientProject" class="custom-select" required>
+              <option value="">Select a project type</option>
+              <option value="ios">iOS Design & Development</option>
+              <option value="web">Website Design & Development</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="client-tel">Contact: </label>
+              <input type="tel" class="form-control" name="clientTel" id="client-tel" placeholder="mobile ">
+            </div>
+            <input type="email" class="form-control" name="clientEmail" id="client-email" placeholder="email">
+            <small class="form-text mb-3 mb-md-0 text-muted">We'll never share your info.</small>
+
+          </div>
+          <div class="col-md-6">
+            <textarea class="form-control" name="clientMsg" placeholder="Briely describe your idea/project..."></textarea>
+          </div>
+        </div>
+
+        <div class="row row-submit">
+          <div class="col">
+            <!-- https://getbootstrap.com/docs/4.4/components/spinners/ -->
+            <button class="btn btn-lg" type="submit">Send</button>
+          </div>
+        </div>
+      </form>
+
+      <% } else { %>
+      <h3 class="pb-0">
+        <% if (msgSent) { %>
+        Thanks for your messages, I will contact you shortly.
+        <% } else { %>
+        Something went wrong, try send us email directly.
+        <% } %>
+      </h3>
+      <% } %>
+    </div>
+  </div>
+</section>
+
+
+<%- include('partials/footer'); %>

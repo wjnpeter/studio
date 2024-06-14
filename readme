@@ -1,0 +1,15 @@
+本地打开
+npm start
+http://localhost:3000/
+
+部署到Heroku
+https://dashboard.heroku.com/apps
+flow the step in Deploy
+
+hipete.li@gmail.com
+Wyget
+
+git push
+这里有两个remote地址，一个heroku，一个codeCommit
+git push heroku master (用来Deploy)
+git push (用来备份)

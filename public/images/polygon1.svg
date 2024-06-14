@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="54" viewBox="0 0 66 54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(176,226,242,0.2);
+      }
+    </style>
+  </defs>
+  <path id="Polygon_1" data-name="Polygon 1" class="cls-1" d="M33,0,66,54H0Z" transform="translate(66 54) rotate(180)"/>
+</svg>

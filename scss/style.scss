@@ -1,0 +1,361 @@
+$enable-responsive-font-sizes: true;
+@import "../node_modules/bootstrap/scss/bootstrap";
+/* Global */
+body {
+  font-family: "Nunito Sans", $font-family-sans-serif;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 2.5rem;
+  }
+}
+
+form {
+  color: #707070;
+}
+
+section .content {
+  color: #707070;
+  text-align: center;
+  padding: 3% 12%;
+  @include media-breakpoint-up(lg) {
+    text-align: left;
+    padding: 3% 7%;
+  }
+}
+
+section .content .hr-programs {
+  width: 30%;
+  margin-bottom: 1rem;
+  border: 0;
+  border-bottom: 7px dotted #EBF0F3;
+  margin-top: 3rem;
+  @include media-breakpoint-up(md) {
+    margin-top: 5rem;
+  }
+  @include media-breakpoint-up(lg) {
+    margin-top: 6.5rem;
+  }
+}
+
+section .programs .list-group-item {
+  max-width: 6rem;
+}
+
+section .btn {
+  background-color: #FEC35B;
+  box-shadow: 0 4px 10px #00000029;
+  color: #FDFDFA;
+  margin-top: 1.725rem;
+  margin-bottom: 1.725rem;
+  @include media-breakpoint-up(lg) {
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+section .btn:hover {
+  background-color: #fec35bcf;
+  color: #FDFDFA;
+}
+/* Navigation */
+.navbar {
+  background-color: #EBF0F3;
+  padding: 2% 5%;
+}
+
+.navbar-brand {
+  font-family: 'Gochi Hand', cursive;
+  color: #474668;
+  font-size: x-large;
+}
+
+.nav-link {
+  font-size: larger;
+  color: #474668;
+}
+
+.navbar-light .navbar-nav .active .nav-link,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #FEC35B;
+}
+/* Home Page */
+.sec-design .design-img,
+.sec-develop .develop-img,
+.sec-maintain .maintain-img {
+  width: 100%;
+  margin: auto;
+}
+
+.sec-design .content,
+.sec-develop .content,
+.sec-maintain .content,
+.sec-message .content,
+.sec-service {
+  padding-top: 6.5rem;
+  margin: auto;
+}
+@media (max-width: 767.98px) {
+  .sec-design .design-img,
+  .sec-develop .develop-img,
+  .sec-maintain .maintain-img {
+    width: 66%;
+    margin: auto;
+    display: block;
+  }
+
+  .sec-design .content,
+  .sec-develop .content,
+  .sec-maintain .content,
+  .sec-message .content {
+    padding-top: 2.5rem;
+  }
+}
+/* Section - Greeting */
+.sec-greeting {
+  background-color: #EBF0F3;
+}
+
+.ours-img {
+  width: 85%;
+  position: absolute;
+  bottom: 0;
+  right: 3rem;
+}
+@media (max-width: 991.98px) {
+  .ours-img {
+    position: static;
+    width: 100%;
+    right: 0;
+  }
+}
+/* Section - Design */
+.light-img {
+  width: 20%;
+  margin-left: auto;
+  right: 5rem;
+  position: relative;
+}
+
+.deco-ellipse1 {
+  position: absolute;
+  right: 30%;
+  top: 20%;
+  z-index: -1;
+}
+
+.deco-path1 {
+  position: absolute;
+  left: 17%;
+  top: 12%;
+}
+
+.deco-path2 {
+  position: absolute;
+  bottom: 1%;
+  left: 55%;
+}
+
+.deco-path-lg {
+  position: absolute;
+  left: 5%;
+  bottom: -7%;
+  z-index: -1;
+}
+@media (max-width: 991.98px) {
+  .deco-path-lg {
+    bottom: -50%;
+  }
+}
+
+.deco-polygon1 {
+  position: absolute;
+  top: 45%;
+  left: 1%;
+}
+
+.deco-polygon2 {
+  position: absolute;
+  right: 3%;
+  top: 60%;
+}
+/* Section - Develop */
+.develop-img {
+  padding-top: 0;
+  @include media-breakpoint-up(lg) {
+    padding-top: 10rem;
+  }
+}
+
+.deco-path3 {
+  position: absolute;
+  left: 0;
+  bottom: -10rem;
+  width: 150%;
+  z-index: -1;
+}
+/* Section - Maintain */
+.maintain-img {
+  padding-top: 0;
+  @include media-breakpoint-up(lg) {
+    padding-top: 10rem;
+  }
+}
+/* Section - Service */
+.sec-service .card-deck .fas {
+  color: #FEC35B;
+}
+/* Footer */
+footer {
+  background-color: #B6EBC4;
+  padding: 3% 7%;
+  text-align: center;
+  color: #fff;
+  font-size: 0.725rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.25rem;
+}
+
+footer p {
+  margin-block-end: 0;
+}
+
+footer .copyright {
+  font-size: 0.625rem;
+}
+/* Work Page */
+/* Section Work */
+.sec-work {
+  background-color: #EBF0F3;
+  padding: 0 1rem 2.5rem;
+}
+
+.sec-work .content {
+  margin-top: 2.5rem;
+}
+
+.sec-work img {
+  width: 66%;
+  margin: auto;
+  display: block;
+  border-radius: 0.5rem;
+  @include media-breakpoint-up(lg) {
+    width: 100%;
+  }
+}
+@media (max-width: 991.98px) {
+  .sec-work .content {
+    margin-top: 1.5rem;
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+}
+@media (max-width: 767.98px) {
+  .sec-work .content {
+    margin-top: 0.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+/* Section Project */
+.sec-project {
+  padding: 7% 5% 3%;
+  @include media-breakpoint-up(lg) {
+    padding: 7% 10% 3%;
+  }
+}
+
+.project {
+  width: 100%;
+  margin: 0 auto;
+  @include media-breakpoint-up(lg) {
+    width: 75%;
+  }
+}
+
+.project-info {
+  width: 95%;
+  text-align: center;
+  margin: 2.5rem auto 0;
+  @include media-breakpoint-up(lg) {
+    width: 70%;
+  }
+}
+
+.project-links {
+  text-align: center;
+}
+
+.sec-tas-aurora {
+  background-color: #1B223A;
+  color: #fff;
+}
+
+.sec-card {
+  background-color: #FAE7CB;
+  color: #000;
+}
+/* Contact Page */
+/* Section Contact */
+.sec-contact {
+  background-color: #EBF0F3;
+}
+
+.contact-img {
+  @include media-breakpoint-down(md) {
+    width: 60%;
+    display: block;
+    margin: -2rem auto 2.5rem;
+  }
+}
+
+.sec-contact form .row {
+  margin: 1rem;
+}
+
+textarea.form-control {
+  height: 100%;
+  @include media-breakpoint-down(md) {
+    min-height: 10rem;
+  }
+}
+
+.row-submit {
+  text-align: right;
+}
+@media (max-width: 991.98px) {
+  .row-submit {
+    text-align: center;
+  }
+}
+
+.contact-wave {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 66%;
+  pointer-events: none;
+}
+
+.contact-light1,
+.contact-light2 {
+  position: absolute;
+  top: 0;
+  pointer-events: none;
+}
+
+.contact-light1 {
+  left: 22%;
+}
+
+.contact-light2 {
+  left: 30%;
+}
+@media (max-width: 991.98px) {
+  .contact-light2 {
+    left: 68%;
+  }
+}
+// Animations

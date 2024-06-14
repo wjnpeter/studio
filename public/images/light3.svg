@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88.101" height="152.568" viewBox="0 0 88.101 152.568">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #93877c;
+      }
+
+      .cls-2 {
+        fill: #756a64;
+      }
+
+      .cls-3 {
+        fill: #7f746e;
+      }
+
+      .cls-4 {
+        fill: #594f47;
+      }
+
+      .cls-5 {
+        fill: #685c54;
+      }
+    </style>
+  </defs>
+  <g id="LIGHT2" transform="translate(-644.59)">
+    <rect id="Rectangle_505" data-name="Rectangle 505" class="cls-1" width="1.188" height="131.658" transform="translate(686.189)"/>
+    <rect id="Rectangle_506" data-name="Rectangle 506" class="cls-1" width="3.86" height="4.232" transform="translate(684.903 125.072)"/>
+    <path id="Path_910" data-name="Path 910" class="cls-2" d="M688.17,132.45h-4.752l-27.84,10.96a328.412,328.412,0,0,0,69.044,0Z"/>
+    <path id="Path_911" data-name="Path 911" class="cls-2" d="M691.14,129.182h-9.206l-4.752,6.236H695.3Z"/>
+    <path id="Path_912" data-name="Path 912" class="cls-3" d="M686.092,129.081l.2,5.643,8.674,9.948,10.172-.408-16.172-9.837-1.387-5.42Z"/>
+    <path id="Path_913" data-name="Path 913" class="cls-4" d="M724.376,143.264c-25.812,1.7-45.04,1.927-68.7,0l-11.087,7.007c34.574,2.909,53.34,3.212,88.1,0Z"/>
+    <path id="Path_914" data-name="Path 914" class="cls-5" d="M695,144.523l1.113,7.92c3.639.061,9.059-.2,14.292-.495l-5.307-7.684Z"/>
+    <rect id="Rectangle_507" data-name="Rectangle 507" class="cls-4" width="7.87" height="0.891" transform="translate(682.701 128.66)"/>
+  </g>
+</svg>

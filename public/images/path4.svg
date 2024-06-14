@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900.024" height="736.021" viewBox="0 0 900.024 736.021">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        opacity: 0.29;
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-0.19" y1="-0.227" x2="0.904" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b0e2f2" stop-opacity="0.102"/>
+      <stop offset="1" stop-color="#b6ebc4" stop-opacity="0.451"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.19" y1="-0.227" x2="0.904" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b0e2f2"/>
+      <stop offset="1" stop-color="#b6ebc4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_109" data-name="Group 109" transform="translate(-742.954 4.816)">
+    <path id="WAVE1" class="cls-1" d="M0,600.316V.68C33.789-2.6,66.585,5.269,83.94,39.509,129,128.4,328.218,123.835,303.584,280.379s45.056,197.858,140.8,169.184,233.724-5.735,233.724,123.3c0,9.987-.393,19.11-1.152,27.451Z" transform="translate(1638.605 595.5) rotate(180)"/>
+    <path id="WAVE2" class="cls-2" d="M0,765.424V34.295L55.417,54.544s60.7,75.825,122.6,104.605c77.366,50.365,38.321,114.7,105.217,143.9,68.875,30.065,221.057,61.63,210.2,147.216C472,619.072,615.014,677.408,653.468,658.248s190.438,29.8,243.542,102.179a30.949,30.949,0,0,1,3.013,5Z" transform="translate(1642.978 765.5) rotate(180)"/>
+  </g>
+</svg>
